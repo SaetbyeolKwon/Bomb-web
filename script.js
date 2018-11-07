@@ -27,8 +27,11 @@ $(".bomb").click(function(){
   })
 
   $(".content").click(function(){
-    console.log(index);
-    $("h1").css("display","none")
+    console.log(index)
+    $("h1").hide()
+    $("h2").hide()
+    // $("h2").fadeOut("slow")
+    $("h2").fadeIn(2000)
     $("h2").html(texts[index]).css("font-size","80px").css("line-height","100px")
     index++
 })
