@@ -10,7 +10,7 @@ const texts = ['And an orator said, "Speak to us of Freedom."'
 ]
 let index = 0;
 
-for(let i=0; i<50; i++){
+for(let i=0; i<20; i++){
     $("body").append('<div class="bomb"><img src="bomb.png" class="static"><img src="bomb.gif" class="img-top"></div>')
     console.log("working well")
     }
