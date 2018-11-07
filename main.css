@@ -1,0 +1,52 @@
+body{
+    background-color:white;
+    font-family: 'IBM Plex Serif', 'Times', serif;
+    font-weight: 600;
+}
+img{
+    width: 300px;
+}
+h1{
+    font-size: 150px;
+    transition: all 0.4s;
+}
+
+h2{
+    font-size: 80px;
+    line-height: 150px;
+    transition: all 0.4s;
+}
+
+.content{
+    margin-top: 150px;
+    margin-left: 10%;
+    width: 80%;
+    height: 100%;
+    display: block;
+}
+
+/* bomb position */
+.bomb{
+    top: 70px;
+    left: 30px;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+}
+
+/* new img */
+.img-top{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+/* hover */
+.bomb:hover .img-top {
+    display: inline;
+}
+.bomb:hover .static {
+    opacity: 0;
+}
